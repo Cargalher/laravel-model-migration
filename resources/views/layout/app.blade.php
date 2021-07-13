@@ -22,11 +22,11 @@
             <nav class="container navbar">
             <img class="logo" src="{{asset('img/logo.png')}}" alt="logo">
                  <ul class="list_menu">
-                    <li><a href="{{ route('home') }}">Home</a></li>
-                    <li><a href="{{ route('package') }}">Trip Packages</a></li>
-                    <li><a href="{{ route('about') }}">About</a></li>
-                    <li> <a href="{{ route('tours') }}">Tours</a></li>
-                    <li>☏ 333-065-732</li>
+                    <li><a href="{{ route('home') }}"><strong>Home</strong></a></li>
+                    <li><a href="{{ route('package') }}"><strong>Trip Packages</strong></a></li>
+                    <li><a href="{{ route('about') }}"><strong>About</strong></a></li>
+                    <li> <a href="{{ route('tours') }}"><strong>Tours</strong></a></li>
+                    <li><strong>☏</strong>  333-065-732</li>
                 </ul>
 
             </nav>
