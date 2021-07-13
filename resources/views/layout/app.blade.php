@@ -16,7 +16,17 @@
         </style>
     </head>
     <body>
-       <header id="ssite_header"></header>
+      
+       <header id="site_header">
+            <nav>
+                 <ul class="list_menu">
+                    <li><a href="{{ route('characters') }}">Home</a></li>
+                    <li><a href="{{ route('comics') }}">About</a></li>
+                    <li> <a href="{{ route('movies') }}">Tours</a></li>
+                </ul>
+            </nav>
+               
+       </header>
        <main id="site_main">
            @yield('content')
        </main>
