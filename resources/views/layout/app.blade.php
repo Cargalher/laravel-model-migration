@@ -20,9 +20,9 @@
        <header id="site_header">
             <nav>
                  <ul class="list_menu">
-                    <li><a href="{{ route('characters') }}">Home</a></li>
-                    <li><a href="{{ route('comics') }}">About</a></li>
-                    <li> <a href="{{ route('movies') }}">Tours</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
+                    <li><a href="{{ route('about') }}">About</a></li>
+                    <li> <a href="{{ route('tours') }}">Tours</a></li>
                 </ul>
             </nav>
                
