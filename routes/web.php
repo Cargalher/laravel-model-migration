@@ -20,7 +20,7 @@ Route::get('about','PageController@about')->name('about');
 
 Route::get('tours','PageController@tours')->name('tours');
 
-Route::get('Agency','PackageController@index')->name('package');
+Route::get('packages','PackageController@index')->name('package');
 /*
 Packages
 - id
