@@ -20,5 +20,14 @@ Route::get('about','PageController@about')->name('about');
 
 Route::get('tours','PageController@tours')->name('tours');
 
-
-
+Route::get('Agency','PackagesController@index')->name('package');
+/*
+Packages
+- id
+- vacation_type
+- place
+- description
+- dates
+- offers
+- img
+*/
