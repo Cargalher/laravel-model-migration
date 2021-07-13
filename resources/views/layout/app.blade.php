@@ -21,6 +21,7 @@
             <nav class="container">
                  <ul class="list_menu">
                     <li><a href="{{ route('home') }}">Home</a></li>
+                    <li><a href="{{ route('package') }}">Vacations</a></li>
                     <li><a href="{{ route('about') }}">About</a></li>
                     <li> <a href="{{ route('tours') }}">Tours</a></li>
                 </ul>

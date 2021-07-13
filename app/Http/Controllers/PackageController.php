@@ -10,6 +10,7 @@ class PackageController extends Controller
     public function index()
     {
         $packages = Package::all();
-        return view('offers', compact('packages'));
+        // ddd($packages);
+        return view('packages.index', compact('packages'));
     }
 }
