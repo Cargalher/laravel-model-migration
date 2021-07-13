@@ -10,11 +10,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
         <!-- Styles -->
+        <link rel="stylesheet" href="{{'css/app.css'}}">
         <style>
             
         </style>
     </head>
     <body>
-       
+       <header id="ssite_header"></header>
+       <main id="site_main">
+           @yield('content')
+       </main>
+       <footer id="site_footer"></footer>
     </body>
 </html>
