@@ -34,7 +34,7 @@ class CreatePackagesTable extends Migration
             $table->string('place', 100);
             $table->text('description');
             $table->string('dates');
-            $table->string('offers');
+            $table->string('offers')->nullable();
             $table->string('image');
             $table->timestamps();
         });

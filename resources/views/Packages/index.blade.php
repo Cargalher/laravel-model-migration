@@ -4,10 +4,11 @@
 
 @section('content')
 
-<h1>Package page</h1>
+
 
 
     @foreach($packages as $package)
+    <div class="card_trips">
         <img src="{{$package->image}}" alt="">
         <h2>{{$package->vacation_name}}</h2>
         <div class="content">
@@ -17,6 +18,8 @@
             <span>{{$package->place}}</span>
             <span>Offer Date: {{$package->dates}}</span>
         </div>
+    </div>
+        
     @endforeach
 
 @endsection

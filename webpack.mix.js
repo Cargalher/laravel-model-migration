@@ -17,3 +17,4 @@ const mix = require('laravel-mix');
      processCssUrls: false
  })
      .sass('resources/sass/app.scss', 'public/css');
+

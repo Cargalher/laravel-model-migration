@@ -1,0 +1,17 @@
+// Main
+#site_main{
+    display: flex;
+    padding: 20px;
+    .card_trips{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid beige;
+        margin: 5px;
+        img{
+            max-width: 100%;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+        }
+    }
+}
