@@ -18,7 +18,7 @@
     <body>
       
        <header id="site_header">
-            <nav>
+            <nav class="container">
                  <ul class="list_menu">
                     <li><a href="{{ route('home') }}">Home</a></li>
                     <li><a href="{{ route('about') }}">About</a></li>
