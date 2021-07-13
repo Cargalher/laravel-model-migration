@@ -18,8 +18,9 @@
             <span>{{$package->place}}</span>
             <span>Offer Date: {{$package->dates}}</span>
         </div>
+        
     </div>
         
     @endforeach
-
+   
 @endsection

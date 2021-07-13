@@ -4,5 +4,5 @@
 
 @section('content')
 
-<h1>Tours page</h1>
+<img class="logo" src="{{asset('img/logo.png')}}" alt="logo">
 @endsection
