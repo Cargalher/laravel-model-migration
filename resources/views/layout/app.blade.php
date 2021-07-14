@@ -35,6 +35,17 @@
        <main id="site_main">
            @yield('content')
        </main>
-       <footer id="site_footer"></footer>
+       <footer id="site_footer">
+           <div class="footer_content container">
+               <img class="logo" src="{{asset('img/logo.png')}}" alt="logo">
+                <ul>
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-pinterest"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                </ul>
+           </div>
+       
+       </footer>
     </body>
 </html>
